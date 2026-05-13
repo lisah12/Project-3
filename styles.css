@@ -11,7 +11,7 @@ html {
 }
 
  body {
-    mas-width: 100vw;
+    max-width: 100vw;
     overflow-x: hidden;
  }
 
@@ -135,7 +135,7 @@ li {
     color: white;
 }
 
-btn__menu--close {
+.btn__menu--close {
     position: absolute;
     right: 20px;
     top: 10px;
@@ -240,8 +240,8 @@ HIGHLIGHTS
 
 }
 
-#highlight:after,
-#highlight:before {
+#highlights:after,
+#highlights:before {
     background: url('assets/wave.svg');
     content:"";
     position: absolute;
@@ -280,7 +280,7 @@ HIGHLIGHTS
     flex-direction: column; 
 }
 
-.hightlight__para {
+.highlights__para {
     text-align: center;
     max-width: 280px;
 
@@ -329,7 +329,7 @@ FEATURES
 .book__img {
     max-height: 380px;
     transition: all 300ms ease;
-    curcor: no-drop;
+    cursor: no-drop;
 }
 
 .book__img--wrapper {
@@ -353,7 +353,7 @@ transform: scale(1.03);
  cursor: not-allowed;
 }
 
-.book__rating {
+.book__ratings {
     margin-bottom: 8px;
     color: #fabf2a
 }
@@ -371,7 +371,7 @@ Explore
 */
 
 #explore {
-    backgroud-color: rgba(115, 66, 214, 0.1);
+    background-color: rgba(115, 66, 214, 0.1);
 }
 
 /*
@@ -380,12 +380,13 @@ FOOTER
 
 */
 
-.footer {
+footer {
     backgroud-color: #242424;
 }
 
 .footer__logo {
     display: flex;
+}
 
 .footer__logo--img {
     width: 160px;
@@ -420,7 +421,7 @@ margin: 20px 24px 0;
         font-size: 26px;
     }
 
-    botton {
+    button {
         font-size: 18px;
     }
 
@@ -436,7 +437,7 @@ margin: 20px 24px 0;
         display: block;
     }
 
-     .nav__links{
+     .nav_links{
         display: none;
     }
 .highlight {
