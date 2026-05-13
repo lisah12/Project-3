@@ -254,6 +254,11 @@ HIGHLIGHTS
 
 }
 
+#highlights .container {
+    position: relative;
+    z-index: 2;
+}
+
 #highlights:before {
     transform: translateY(-100%);
     top: 1px;
@@ -280,7 +285,7 @@ HIGHLIGHTS
     flex-direction: column; 
 }
 
-.highlights__para {
+.highlight__para {
     text-align: center;
     max-width: 280px;
 
@@ -289,8 +294,8 @@ HIGHLIGHTS
 .highlight__img {
     border: 2px solid #7342d654;
     color: #7342d6;
-    width: 100%;
-    height: 100%;
+    width: 100px;
+    height: 100px;
     align-items: center;
     justify-content: center;
     display: flex;
