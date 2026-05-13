@@ -237,7 +237,7 @@ HIGHLIGHTS
 
 #highlights {
     position: relative;
-    max-width: 100vh;
+
 }
 
 #highlight:after,
@@ -264,10 +264,11 @@ HIGHLIGHTS
     transform: translateY(100%) rotate(180deg);
 }
 
-
+ 
 .highlight__wrapper {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .highlight {
