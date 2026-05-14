@@ -255,19 +255,20 @@ HIGHLIGHTS
 
 }
 
-#highlights .container {
-    position: relative;
-    z-index: 2;
-}
-
 #highlights:before {
     transform: translateY(-100%);
     top: 1px;
 }
 
 #highlights:after {
-    background-repeat: no-repeat;
+     background-repeat: no-repeat;
     transform: translateY(100%) rotate(180deg);
+    bottom: 0;
+}
+
+#highlights .contianer {
+    position: relative;
+    z-index 
 }
 
 .highlight__wrapper {
